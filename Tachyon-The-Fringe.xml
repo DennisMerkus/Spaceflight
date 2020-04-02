@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" ?>
+<profile version="9">
+    <devices>
+        <device device-guid="{6F1D2B61-D5A0-11CF-BFC7-444553540000}" label="" name="keyboard" type="keyboard">
+            <mode name="Default"/>
+        </device>
+        <device device-guid="{85D3CD90-72BC-11EA-8004-444553540000}" label="" name="X52 Professional H.O.T.A.S." type="joystick">
+            <mode name="Default">
+                <axis description="Roll (W, E)" id="1">
+                    <container type="basic">
+                        <action-set>
+                            <map-to-keyboard>
+                                <key extended="False" scan-code="17"/>
+                            </map-to-keyboard>
+                        </action-set>
+                        <virtual-button direction="anywhere" lower-limit="-0.1" upper-limit="-1.0"/>
+                    </container>
+                    <container type="basic">
+                        <action-set>
+                            <map-to-keyboard>
+                                <key extended="False" scan-code="18"/>
+                            </map-to-keyboard>
+                        </action-set>
+                        <virtual-button direction="anywhere" lower-limit="0.1" upper-limit="1.0"/>
+                    </container>
+                </axis>
+                <axis description="Pitch" id="2">
+                    <container type="basic">
+                        <action-set>
+                            <remap axis="2" axis-scaling="1.0" axis-type="absolute" vjoy="1"/>
+                        </action-set>
+                    </container>
+                </axis>
+                <axis description="" id="3"/>
+                <axis description="" id="4"/>
+                <axis description="" id="5"/>
+                <axis description="Yaw" id="6">
+                    <container type="basic">
+                        <action-set>
+                            <remap axis="1" axis-scaling="1.0" axis-type="absolute" vjoy="1"/>
+                        </action-set>
+                    </container>
+                </axis>
+                <axis description="" id="7"/>
+                <button description="Fire Primary" id="1">
+                    <container type="basic">
+                        <action-set>
+                            <map-to-keyboard>
+                                <key extended="False" scan-code="57"/>
+                            </map-to-keyboard>
+                        </action-set>
+                    </container>
+                </button>
+                <button description="Double Fire" id="2">
+                    <container type="basic">
+                        <action-set>
+                            <map-to-keyboard>
+                                <key extended="False" scan-code="41"/>
+                            </map-to-keyboard>
+                        </action-set>
+                    </container>
+                </button>
+                <button description="Nearest Enemy" id="3">
+                    <container type="basic">
+                        <action-set>
+                            <map-to-keyboard>
+                                <key extended="False" scan-code="53"/>
+                            </map-to-keyboard>
+                        </action-set>
+                    </container>
+                </button>
+                <button description="Target Boresight" id="4">
+                    <container type="basic">
+                        <action-set>
+                            <map-to-keyboard>
+                                <key extended="False" scan-code="28"/>
+                            </map-to-keyboard>
+                        </action-set>
+                    </container>
+                </button>
+                <button description="Fire Secondary" id="5">
+                    <container type="basic">
+                        <action-set>
+                            <map-to-keyboard>
+                                <key extended="False" scan-code="45"/>
+                            </map-to-keyboard>
+                        </action-set>
+                    </container>
+                </button>
+                <button description="" id="6"/>
+                <button description="Reverse Thrust" id="7">
+                    <container type="basic">
+                        <action-set>
+                            <map-to-keyboard>
+                                <key extended="False" scan-code="44"/>
+                            </map-to-keyboard>
+                        </action-set>
+                    </container>
+                </button>
+                <button description="Slide" id="8">
+                    <container type="basic">
+                        <action-set>
+                            <map-to-keyboard>
+                                <key extended="False" scan-code="16"/>
+                            </map-to-keyboard>
+                        </action-set>
+                    </container>
+                </button>
+                <button description="Autopilot" id="9">
+                    <container type="basic">
+                        <action-set>
+                            <map-to-keyboard>
+                                <key extended="False" scan-code="30"/>
+                            </map-to-keyboard>
+                        </action-set>
+                    </container>
+                </button>
+                <button description="" id="10"/>
+                <button description="" id="11"/>
+                <button description="" id="12"/>
+                <button description="" id="13"/>
+                <button description="" id="14"/>
+                <button description="" id="15"/>
+                <button description="" id="16"/>
+                <button description="" id="17"/>
+                <button description="" id="18"/>
+                <button description="" id="19"/>
+                <button description="Next Enemy" id="20">
+                    <container type="basic">
+                        <action-set>
+                            <map-to-keyboard>
+                                <key extended="False" scan-code="52"/>
+                            </map-to-keyboard>
+                        </action-set>
+                    </container>
+                </button>
+                <button description="Target Next/Next Subsys" id="21">
+                    <container type="basic">
+                        <action-set>
+                            <map-to-keyboard>
+                                <key extended="False" scan-code="27"/>
+                                <activation-condition rule="all">
+                                    <condition comparison="released" condition-type="joystick" device-guid="{85D3CD90-72BC-11EA-8004-444553540000}" device-name="X52 Professional H.O.T.A.S." id="6" input="button"/>
+                                </activation-condition>
+                            </map-to-keyboard>
+                            <map-to-keyboard>
+                                <key extended="False" scan-code="40"/>
+                                <activation-condition rule="all">
+                                    <condition comparison="pressed" condition-type="joystick" device-guid="{85D3CD90-72BC-11EA-8004-444553540000}" device-name="X52 Professional H.O.T.A.S." id="6" input="button"/>
+                                </activation-condition>
+                            </map-to-keyboard>
+                        </action-set>
+                    </container>
+                </button>
+                <button description="" id="22"/>
+                <button description="Target Previous/Previous Subsys" id="23">
+                    <container type="basic">
+                        <action-set>
+                            <map-to-keyboard>
+                                <key extended="False" scan-code="26"/>
+                                <activation-condition rule="all">
+                                    <condition comparison="released" condition-type="joystick" device-guid="{85D3CD90-72BC-11EA-8004-444553540000}" device-name="X52 Professional H.O.T.A.S." id="6" input="button"/>
+                                </activation-condition>
+                            </map-to-keyboard>
+                            <map-to-keyboard>
+                                <key extended="False" scan-code="39"/>
+                                <activation-condition rule="all">
+                                    <condition comparison="pressed" condition-type="joystick" device-guid="{85D3CD90-72BC-11EA-8004-444553540000}" device-name="X52 Professional H.O.T.A.S." id="6" input="button"/>
+                                </activation-condition>
+                            </map-to-keyboard>
+                        </action-set>
+                    </container>
+                </button>
+                <button description="" id="24"/>
+                <button description="Right Thrust" id="25">
+                    <container type="basic">
+                        <action-set>
+                            <map-to-keyboard>
+                                <key extended="False" scan-code="32"/>
+                            </map-to-keyboard>
+                        </action-set>
+                    </container>
+                </button>
+                <button description="" id="26"/>
+                <button description="Left Thrust" id="27">
+                    <container type="basic">
+                        <action-set>
+                            <map-to-keyboard>
+                                <key extended="False" scan-code="31"/>
+                            </map-to-keyboard>
+                        </action-set>
+                    </container>
+                </button>
+                <button description="" id="28"/>
+                <button description="" id="29"/>
+                <button description="" id="30"/>
+                <button description="Afterburner" id="31">
+                    <container type="basic">
+                        <action-set>
+                            <map-to-keyboard>
+                                <key extended="False" scan-code="15"/>
+                            </map-to-keyboard>
+                        </action-set>
+                    </container>
+                </button>
+                <button description="" id="32"/>
+                <button description="" id="33"/>
+                <button description="" id="34"/>
+                <button description="" id="35"/>
+                <button description="" id="36"/>
+                <button description="" id="37"/>
+                <button description="" id="38"/>
+                <button description="" id="39"/>
+                <hat description="" id="1"/>
+            </mode>
+        </device>
+    </devices>
+    <vjoy-devices>
+        <vjoy-device device-guid="{CA463DD0-7453-11EA-8002-444553540000}" label="" name="vJoy Device" type="vjoy">
+            <mode name="Default">
+                <axis description="" id="1"/>
+                <axis description="" id="2"/>
+                <axis description="" id="3"/>
+                <axis description="" id="4"/>
+                <axis description="" id="5"/>
+                <axis description="" id="6"/>
+                <axis description="" id="7"/>
+                <axis description="" id="8"/>
+                <button description="" id="1"/>
+                <button description="" id="2"/>
+                <button description="" id="3"/>
+                <button description="" id="4"/>
+                <button description="" id="5"/>
+                <button description="" id="6"/>
+                <button description="" id="7"/>
+                <button description="" id="8"/>
+            </mode>
+        </vjoy-device>
+    </vjoy-devices>
+    <settings>
+        <default-delay>0.05</default-delay>
+    </settings>
+    <plugins/>
+</profile>
